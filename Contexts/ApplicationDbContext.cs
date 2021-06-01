@@ -10,5 +10,6 @@ namespace WebAPi_Kairos.Contexts {
         }
 
         public DbSet<Persona> Personas { get; set; }
+        public DbSet<Login> Logins { get; set; }
     }
 }
